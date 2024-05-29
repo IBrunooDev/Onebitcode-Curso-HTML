@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Inscrição</title>
+</head>
+
+<body>
+
+    <h1>Formulário de Inscrição</h1>
+
+    <form>
+        <div>
+            <div>
+                <!-- Form De Nome -->
+                <label>Nome:</label><br>
+                <input type="text" name="idtexto" id="idtexto" required placeholder="Exemplo: Bruno">
+                <br><br>
+            </div>
+
+            <div>
+                <!-- Form De Email -->
+                <label for="Email">Email:</label><br>
+                <input type="email" name="idemail" id="idemail" required placeholder="Exemplo: bru@email.com">
+                <br><br>
+            </div>
+
+            <div>
+                <!-- Form De Número De Contato -->
+                <label for="Whatszapp">Whatszapp:</label><br>
+                <input type="tel" name="idwhatszapp" id="idwhatszapp" required placeholder="Exemplo: 11-1234-5678">
+                <br><br>
+            </div>
+
+            <div>
+                <!-- Form De Seleção De Area -->
+                <label>Área de atuação:</label><br>
+
+                <!-- Pimeiro input Radio -->
+                <input type="radio" name="area" id="dev" value="Desenvolvimento" required>
+                <label for="dev">Desenvolvimento</label>
+
+                <!-- Segundo input Radio -->
+                <input type="radio" name="area" id="ac" value="Quality Assurance (QA)" required>
+                <label for="ac">Quality Assurance (QA)</label>
+
+                <!-- Terceiro input Radio -->
+                <input type="radio" name="area" id="dados" value="Análise de Dados" required>
+                <label for="dados">Análise de Dados</label>
+
+                <!-- Quarto Form Radio -->
+                <input type="radio" name="area" id="infra" value="Infraestrutura" required>
+                <label for="infra">Infraestrutura</label>
+                <br><br>
+            </div>
+
+            <div>
+                <!-- Form De Escrever -->
+                <label for="Observacoes">Observções</label><br>
+                <textarea name="Observacoes" id="Observacoes" cols="25" rows="4"></textarea>
+            </div>
+
+            <div>
+                <!-- Form De checkbox -->
+                <input type="checkbox" name="oferta" id="oferta" required>
+                <label for="oferta">Desejo receber novidades e ofertas por email</label>
+                <br><br>
+            </div>
+
+            <div>
+                <!-- Form De Botão -->
+
+                <button type="submit">Enviar</button>
+
+                <!-- <input type="submit" value="Enviar"> -->
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

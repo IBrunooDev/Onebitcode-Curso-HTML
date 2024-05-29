@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criação de tabelas</title>
+</head>
+
+<body>
+
+    <h1>Criação de tabelas</h1>
+
+    <table border="1">
+        <!-- th : você coloca titulo  -->
+        <tr>
+            <th>Coluna 1</th>
+            <th>Coluna 2</th>
+        </tr>
+        <!-- Primeira Tabela : td você coloca conteudo que vai ser aparecer na web  -->
+        <tr>
+            <td>Dado 1</td>
+            <td>Dado 2</td>
+        </tr>
+        <!-- Segunda Tabela td você coloca conteudo que vai ser aparecer na web -->
+        <tr>
+            <td>Dado 1</td>
+            <td>Dado 2</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- Exemplo a baixo -->
+
+    <h2>Tabelas com Cabeçalho</h2>
+
+    <table border="1">
+
+        <!-- thead : Cabeçalho -->
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+
+        </thead>
+
+        <!-- body : Corpo da estruta Table  -->
+        <tbody>
+            <tr>
+                <td>Bruno</td>
+                <td>21</td>
+                <td>Programador Front End</td>
+            </tr>
+
+            <tr>
+                <td>Henrique</td>
+                <td>21</td>
+                <td>Programador Full Stack</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <!-- Outro Exemplo de table -->
+
+    <h1>Tabela com Células Personalizadas</h1>
+<!-- Comanddos Border para cria borda na table -->
+    <table border="1"> 
+        <thead>
+            <tr>
+                <th colspan="2">informaçãos Pessoais</th>
+                <th>Contato</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Nome</td>
+                <td>Bruno</td>
+                <td rowspan="2">Telefone : 12345</td>
+            </tr>
+
+            <tr>
+                <td>Idade</td>
+                <td>21</td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+
+</html>
