@@ -35,3 +35,5 @@
 🔎 - Elementos select e textarea
 
 🔎 - Elementos semânticos
+
+🔎 - WAI-ARIA e atributos de acessibilidade
