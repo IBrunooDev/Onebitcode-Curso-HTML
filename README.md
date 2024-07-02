@@ -37,3 +37,17 @@
 🔎 - Elementos semânticos
 
 🔎 - WAI-ARIA e atributos de acessibilidade
+
+# •|📚 Exercicios
+
+🔎 - 01-Escrevendo um artigo
+
+🔎 - 02-Criando um site com navegação
+
+🔎 - 03-Lista de Álbuns
+
+🔎 - 04-Tabela de Inscritos
+
+🔎 - 05-Formulário de Inscrição
+
+🔎 - 06-Criando um site completo
